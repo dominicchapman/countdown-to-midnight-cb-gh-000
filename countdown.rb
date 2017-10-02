@@ -2,5 +2,8 @@
 seconds_until_new_year = 5
 def countdown
   while seconds_until_new_year > 0
-    return "#{seconds_until_new_year SECOND(S)!"
+    return "#{seconds_until_new_year} SECOND(S)!"
+    seconds_until_new_year =- 1
+  end
+  return "HAPPY NEW YEAR!"
 end
